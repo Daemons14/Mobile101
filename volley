@@ -1,0 +1,5 @@
+Getting Data using Volley Network Library
+
+
+This is to show some example codes using volley to connect to the server or network, use JSON request and transforming data into
+objects
