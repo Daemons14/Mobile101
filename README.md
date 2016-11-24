@@ -13,7 +13,31 @@ dependencies {
 }
 ```
 
-# 
+Make sure to also reference the local Maven repository in your root build.gradle as shown here:
+
+```
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.9.+'
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        mavenLocal() // When you forget this, the library will not be found
+    }
+}
+
+```
+
+#Other Sources
+
+
 
 
 
