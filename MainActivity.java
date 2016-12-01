@@ -26,9 +26,9 @@ public class MainActivity extends Activity {
 
 		RequestQueue queue = Volley.newRequestQueue(this);
 		//URL for your file
-		String url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyBmSXUzVZBKQv9FJkTpZXn0dObKgEQOIFU&cx=014099860786446192319:t5mr0xnusiy&q=AndroidDev&alt=json&searchType=image";
+		String url = "Your link to your file here";
 		
-
+		//This is only for GET METHOD
 		JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
 
 
